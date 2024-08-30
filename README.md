@@ -1,9 +1,9 @@
 # coastal-fieldwork
 
 Welcome to coastal-fieldwork. This repository contains python code to read and process data from several instruments used in coastal field experiments. At the moment, the following instruments are supported:
-- RBR Solo pressure loggers
-- HOBO U20L pressure loggers
-- SOFAR Spotter wave buoys
+- RBR Solo pressure loggers (.rsk files)
+- HOBO U20L water loggers (.csv files)
+- SOFAR Spotter wave buoys (.csv files)
 
 ## Usage
 The code allows users to read and process raw data files from the above instruments through classes and methods contained in the file cls_fieldwork.py. Further instructions on the use of the classes and methods is provided through comments in the code.
@@ -14,17 +14,12 @@ issue in the [GitHub repository](https://github.com/jakobchristiaanse/coastal-fi
 that's your first time, have a look at [these
 instructions](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue).
 
+## Author
+Jakob C. Christiaanse
+[<img src=https://info.orcid.org/wp-content/uploads/2020/12/orcid_16x16.gif alt="ORCiD" width="16" height="16">](https://orcid.org/0009-0007-4089-3578)
+(_Delft University of Technology_).
+
+Contact: [J.C.Christiaanse@tudelft.nl](mailto:J.C.Christiaanse@tudelft.nl?subject=[GitHub]%20coastal-fieldwork:%20).
+
 ## License
-Copyright 2024 Jakob C. Christiaanse
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+This repository is licensed under [Apache License 2.0](LICENSE).
