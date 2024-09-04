@@ -1,12 +1,13 @@
 # coastal-fieldwork
-
-Welcome to coastal-fieldwork. This repository contains python code to read and process data from several instruments used in coastal field experiments. At the moment, the following instruments are supported:
+Welcome to Coastal Fieldwork: Python based readout and processing of coastal fieldwork data. This repository contains python code to read and process data from several instruments used in coastal field experiments. At the moment, the following instruments are supported:
 - RBR Solo pressure loggers (.rsk files)
 - HOBO U20L water loggers (.csv files)
 - SOFAR Spotter wave buoys (.csv files)
 
+There is also a code to read and process cross-shore beach profiles and create and use cross-shore centered coordinate systems.
+
 ## Usage
-The code allows users to read and process raw data files from the above instruments through classes and methods contained in the file cls_fieldwork.py. Further instructions on the use of the classes and methods is provided through comments in the code.
+The code allows users to read and process raw data files from the above instruments through classes and methods. Further instructions on the use of the classes and methods is provided through comments in the code.
 
 ## Author
 Jakob C. Christiaanse
